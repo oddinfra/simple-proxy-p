@@ -4,6 +4,7 @@ const headerMap: Record<string, string> = {
   'X-Origin': 'Origin',
   'X-User-Agent': 'User-Agent',
   'X-X-Real-Ip': 'X-Real-Ip',
+  'Access-Control-Allow-Origin': '*',
 };
 
 const blacklistedHeaders = [
